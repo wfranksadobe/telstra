@@ -1,19 +1,19 @@
 {
     "mappings": [
-      "/content/citisignal-one/:/",
-      "/content/citisignal-one/configuration:/.helix/config.json",
-      "/content/citisignal-one/metadata:/metadata.json",
-      "/content/citisignal-one/configs:/configs.json",
-      "/content/citisignal-one/configs-stage:/configs-stage.json",
-      "/content/citisignal-one/configs-dev:/configs-dev.json",
-      "/content/citisignal-one/redirects:/redirects.json",
-      "/content/citisignal-one/placeholders:/placeholders.json",
-      "/content/citisignal-one/products/recommended-products:/products/recommended-products.json",
-      "/content/citisignal-one/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/telstra/:/",
+      "/content/telstra/configuration:/.helix/config.json",
+      "/content/telstra/metadata:/metadata.json",
+      "/content/telstra/configs:/configs.json",
+      "/content/telstra/configs-stage:/configs-stage.json",
+      "/content/telstra/configs-dev:/configs-dev.json",
+      "/content/telstra/redirects:/redirects.json",
+      "/content/telstra/placeholders:/placeholders.json",
+      "/content/telstra/products/recommended-products:/products/recommended-products.json",
+      "/content/telstra/enrichment/enrichment:/enrichment/enrichment.json",
       "/content/dam/citisignal/images/products/:/images/products/"
     ],
     "includes": [
-      "/content/citisignal-one",
+      "/content/telstra",
       "/content/dam/citisignal/images/products/"
     ]
 }
