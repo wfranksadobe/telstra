@@ -186,8 +186,11 @@ export default async function decorate(block) {
           const imageFileName = imageUrlParts[imageUrlParts.length - 1];
           const modifiedImageFileName = imageFileName.replace(/_/g, '-');
 
+          //https://publish-p148667-e1521806.adobeaemcloud.com/content/dam/telstra/
+          
           // Update the URL to the new format
-          image.url = `/images/products/${modifiedImageFileName}`;
+          //image.url = `/images/products/${modifiedImageFileName}`;
+          image.url = 'https://publish-p148667-e1521806.adobeaemcloud.com/content/dam/telstra/' + `/images/products/${modifiedImageFileName}`;
         });
         return {
           ...data,
