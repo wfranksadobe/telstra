@@ -10,10 +10,10 @@
       "/content/telstra/placeholders:/placeholders.json",
       "/content/telstra/products/recommended-products:/products/recommended-products.json",
       "/content/telstra/enrichment/enrichment:/enrichment/enrichment.json",
-      "/content/dam/citisignal/images/products/:/images/products/"
+      "/content/dam/telstra/images/products/:/images/products/"
     ],
     "includes": [
       "/content/telstra",
-      "/content/dam/citisignal/images/products/"
+      "/content/dam/telstra/images/products/"
     ]
 }
